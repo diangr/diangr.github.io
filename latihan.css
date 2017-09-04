@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    z-index: 0;
+    width: 80%;
+    background: darkslategray;
+}
+#page {
+    z-index: 1;
+    width: 100%;
+    margin: 0 13%;
+}
+#header {
+    background: white;
+    width: 80%;
+    height: 58px;
+    border-bottom: 1px solid #bbb6b4;
+    position: fixed;
+}
+#logo img {
+    float: left;
+    width: 55px;
+    margin: 0px auto;
+}
+#logo h1 {
+    font-family: 'arial narrow', sans-serif;
+    float: left;
+    padding: 0.8% 0;
+}
+#menu {
+    width: 35%;
+    height: 60px;
+    float: left;
+}
+#menu ul {
+    width: 95%;
+    margin: 5% 3% 7%;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 70%;
+    color: #ada6a6;
+    font-family: arial;
+    padding: 4.5% 1%;
+}
+#menu ul li a:hover {
+    color: #ccc0c0;
+}
+#nav {
+    width: 40%;
+    height: 60px;
+    display: inline;
+    float: right;
+}
+#nav ul {
+    width: 42%;
+    float: left;
+}
+#nav ul li {
+    list-style: none;
+    padding: 0 0 0 23%;
+}
+#nav ul li a {
+    width: 80%;
+    float: left;
+    text-decoration: none;
+    font-size: 70%;
+    font-family: arial;
+    color: #ada6a6;
+    padding: 17% 20%;
+}
+#nav ul li a:hover {
+    color: #ccc0c0;
+}
+#nav .login {
+    float: left;
+    background: white;
+    border: 2px solid #d2c7c7;
+    border-radius: 5px;
+    padding: 3% 5%;
+    margin: 1.5% 1%;
+    color: #ada6a6;
+}
+#nav .login:hover {
+    border-color: #eae3e3;
+    opacity: 0.5;
+}
+#nav .logn {
+    float: left;
+    background: #6ee16e;
+    border-radius: 5px;
+    border: 2px solid #a0f3a0;
+    padding: 3% 5%;
+    margin: 1.5% 1%;
+    color: white;
+}
+#nav .logn:hover {
+    background: #a0f3a0;
+}
+#image {
+    font-family: 'arial narrow', sans-serif;
+    background-image: url(/home/dimas/Documents/latihan/img/correct2.jpg); 
+    background-size: 100% 550px;
+    height: 550px;
+}
+#image .text {
+    color: white;
+    font-size: 190%;
+    display: inline-block;
+    width: 75%;
+    height: 15%;
+    line-height: 35px;
+    margin-top: 20%;
+}
+#image {
+    width: 100%;
+    color: white;
+    margin-left: 0;
+    text-align: center;
+}
+
+#image p {
+    color: #797979;
+}
+.join {
+    color: white;
+    margin: 5%;
+    padding: 1% 5%;
+    font-size: 185%; 
+    border-radius: 15px;
+    background-color: #ea4f71;
+    border-color: #ff718a;
+}
+.join:hover {
+    background: #ef5772;
+    color: #e0c4c4;
+}
+#content {
+    width: 100%;
+    height: 380px;
+    font-family: 'arial narrow', sans-serif;
+    background-color: white;
+}
+#article {
+    margin: 5% 0;
+    width: 49%;
+    float: left;
+    border-right: 1px solid #d6d4d4;
+}
+#article1 {
+    margin: 5% 0;
+    width: 49%;
+    float: left;
+}
+h2 {
+    text-align: center;
+    padding: 0 0 10%;
+}
+.p {
+    text-align: center;
+    font-size: 100%;
+}
+.start {
+    margin: 10% 35%;
+    padding: 3% 5%;
+    border: 1px solid #a0f3a0;
+    border-radius: 10px;
+    background-color: #6ee16e;
+    color: white;
+}
+.start:hover {
+    background-color: #a0f3a0;
+}
+#navigasion {
+    width: 100%;
+    height: 70px;
+    float: left;
+    font-family: 'arial narrow', sans-serif;
+    background: #eeeeee;
+}
+#navigasion ul {
+    width: 95%;
+    margin: 0 3%;
+}
+#navigasion ul li {
+    list-style: none;
+}
+#navigasion ul li .a {
+    width: 15%;
+    float: left;
+    text-decoration: none;
+    font-size: 95%;
+    font-family: arial;
+    color: black;
+    padding: 2.5% 2%;
+    border-top: 1.5px solid #6ee16e;
+    background: #fafafa;
+    margin-left: 5%;
+}
+#navigasion ul li .a1 {
+    width: 15%;
+    float: left;
+    text-decoration: none;
+    font-size: 95%;
+    font-family: arial;
+    color: #5d5a5a;
+    padding: 2.5% 2%;
+}
+#navigasion ul li .a1:hover {
+    color: #33a233;
+}
+#news {
+    float: left;
+    width: 100%;
+    height: 1000px;
+    background: #fafafa;
+    font-family:  'arial narrow', sans-serif;
+    padding-top: 50px;
+}
+.top {
+    width: 94%;
+    height: 60px;
+    padding: 0 3%;
+}
+.top h2 {
+    float: left;
+    font-size: 150%;
+    font-weight: lighter;
+    padding: 1.5% 5%;
+}
+.top .search[type=text] {
+    float: right;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 73%;
+    background-color: #fff;
+    background-image: url('/home/dimas/Documents/latihan/img/download.png'); 
+    border: 2px solid #ccc;
+    background-size: 13% 25px;
+    background-position: 95% 5px; 
+    background-repeat: no-repeat;
+    padding: 1.2% 0 1.2% 1%;
+    margin: 1% 1%;
+}
+.top .link {
+    float: right;
+    width: 15%;
+    border: 2px solid #b1afaf;
+    border-radius: 4px;
+    font-size: 73%;
+    background-color: white;
+    padding: 1.2% 0%;
+    margin: 1% 0;
+    color: grey;
+}
+.top .link:hover {
+    border-color: #ccc;
+}
+#news .conter {
+    
+}
+.news-content .div1 {
+    background-image: url('/home/dimas/Documents/latihan/img/art-3.png');
+    background-size: 100% 150px; 
+    background-repeat: no-repeat;
+    width: 23%;
+    height: 300px;
+    margin: 3.1% 8%;
+    background-color: white;
+}
+.div1 .p {
+    font-size: 100%;
+    color: grey;
+    padding: 62% 78% 1% 0;
+}
+.div1 .p1 {
+    font-size: 75%;
+    color: grey;
+    padding: 15% 3% 0;
+}
+.div1 li {
+    list-style: none;
+}
+.div1 li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 155%;
+    padding: 2% 3% 0;
+    text-align: justify;
+}
