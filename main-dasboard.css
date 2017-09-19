@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: darkcyan;
+}
+#wraper {
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	font-family: arial;
+}
+#head {
+	width: 100%;
+	height: 50px;
+	background: grey;
+}
+#logo {
+	width: 15%;
+	height: 30px;
+	float: left;
+	margin: 10px 0;
+	color: white;
+}
+.h1 {
+	width: 50%;
+	margin: 0 8%;
+	font-size: 150%;
+}
+#menu {
+	float: right;
+	width: 25%;
+	margin: 15px 0;
+}
+ul {
+	
+}
+ul li {
+	display: inline;
+	list-style: none;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 7% 3%;
+}
+#content {
+	width: 100%;
+	height: 380px;
+	background: #ababab;
+}
+.article {
+	float: left;
+	width: 40%;
+	margin: 10% 0 0 8%;
+}
+h1 {
+	font-family: arial;
+	text-align: left;
+	margin-bottom: 5%;
+}
+.article p {
+	font-size: 75%;
+	text-align: justify;
+}
+.img-article {
+    float: right;
+    width: 40%;
+    margin: 1% 8% 1.5% 0;
+}
+img {
+	width: 80%;
+    height: 235px;
+    margin: 13.5% 0;	
+}
+.input {
+	float: left;
+	font-size: 100%;
+	padding: 1.2% 2%;
+	margin: 2.5% 0 0 8%;
+	border-radius: 5px;
+	background-color: #008fe4;
+	border: 0 solid;
+	color: white;
+}
+.input2 {
+	float: left;
+	font-size: 100%;
+	padding: 1% 2%;
+	margin: 2.5% 1%;
+	border-radius: 5px;
+	border: 2px solid #008fe4;
+	background-color: white;
+	color: #008fe4;
+}
